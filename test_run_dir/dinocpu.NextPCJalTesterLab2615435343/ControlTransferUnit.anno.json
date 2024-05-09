@@ -1,0 +1,46 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ControlTransferUnit|ControlTransferUnit>io_nextpc",
+    "sources":[
+      "~ControlTransferUnit|ControlTransferUnit>io_controltransferop",
+      "~ControlTransferUnit|ControlTransferUnit>io_funct3",
+      "~ControlTransferUnit|ControlTransferUnit>io_pc",
+      "~ControlTransferUnit|ControlTransferUnit>io_imm",
+      "~ControlTransferUnit|ControlTransferUnit>io_operand1",
+      "~ControlTransferUnit|ControlTransferUnit>io_operand2"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ControlTransferUnit|ControlTransferUnit>io_taken",
+    "sources":[
+      "~ControlTransferUnit|ControlTransferUnit>io_controltransferop",
+      "~ControlTransferUnit|ControlTransferUnit>io_funct3",
+      "~ControlTransferUnit|ControlTransferUnit>io_operand1",
+      "~ControlTransferUnit|ControlTransferUnit>io_operand2"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"test_run_dir/dinocpu.NextPCJalTesterLab2615435343"
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/dinocpu.NextPCJalTesterLab2615435343"
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"ControlTransferUnit"
+  }
+]

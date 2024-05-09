@@ -1,0 +1,31 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ControlTransferUnit|ControlTransferUnit>io_nextpc",
+    "sources":[
+      "~ControlTransferUnit|ControlTransferUnit>io_pc"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"test_run_dir/dinocpu.NextPCJalrTesterLab2293160876"
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/dinocpu.NextPCJalrTesterLab2293160876"
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"ControlTransferUnit"
+  }
+]

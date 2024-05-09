@@ -1,0 +1,31 @@
+Lab2 / test
+Lab2 / testOnly dinocpu.SingleRTypeTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleRTypeTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleITypeTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleRTypeTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleITypeTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleRTypeTesterLab2
+runMain dinocpu.singlestep addi1 single-cycle
+[A
+[A[A[A[A[A[A[B[B[B
+[A[A[A[A[Aexit
+quit
+runMain dinocpu.singlestep addi1 single-cycle
+Lab2 / testOnly dinocpu.SingleCycleITypeTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleLoadTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleUTypeTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleStoreTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleLoadStoreTesterLab2
+Lab2 / testOnly dinocpu.NextPCBranchTesterLab2
+testOnly dinocpu.NextPCBranchTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleBranchTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleLoadStoreTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleBranchTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleJALTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleJALRTesterLab2
+Lab2 / testOnly dinocpu.NextPCTesterLab2
+Lab2 / testOnly dinocpu.SingleCyceApplicationTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleApplicationTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleApplicationsTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleRTypeTesterLab2
+Lab2 / test

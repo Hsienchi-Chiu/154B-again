@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="COE-CS-pc13.OU.AD3.UCDAVIS.EDU" name="dinocpu.SingleCycleITypeTesterLab2" tests="25" errors="0" failures="0" skipped="0" time="15.944" timestamp="2024-05-01T16:41:36">
+                     <properties>
+      <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="ANSI_X3.4-1968"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://ubuntu.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/><property name="sun.java.command" value="/home/sbt-user/.cache/sbt/boot/sbt-launch/1.8.0/sbt-launch-1.8.0.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2022-10-18"/><property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.17+8-post-Ubuntu-1ubuntu222.04"/><property name="user.name" value="sipilla"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/tmp/jna-2096438706/jna13802755181208646276.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.17"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/.singularity.d/libs:/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Ubuntu"/><property name="scala.ext.dirs" value="/home/sipilla/.sbt/1.0/java9-rt-ext-ubuntu_11_0_17"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/home/sbt-user/.cache/sbt/boot/sbt-launch/1.8.0/sbt-launch-1.8.0.jar"/><property name="java.vm.vendor" value="Ubuntu"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="GMT"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/sipilla"/><property name="user.language" value="en"/><property name="sbt.script" value="/usr/bin/sbt"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.15.0-105-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib"/><property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/><property name="user.dir" value="/home/sipilla/Assignment2"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="11.0.17+8-post-Ubuntu-1ubuntu222.04"/><property name="java.class.version" value="55.0"/>
+    </properties>
+                     <testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction addi1" time="2.398">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction addiw1" time="0.936">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction addiw2" time="0.901">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction addiw3" time="0.631">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction slli" time="0.747">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction slli2" time="0.694">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction slliw1" time="0.622">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction slliw2" time="0.596">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction slliw3" time="0.699">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction srai" time="0.572">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction srai-negative" time="0.505">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction sraiw1" time="0.52">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction sraiw2" time="0.505">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction srli" time="0.478">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction srli2" time="0.525">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction srliw1" time="0.508">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction srliw2" time="0.484">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction srliw3" time="0.474">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction andi" time="0.494">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction ori" time="0.479">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction xori" time="0.42">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction slti" time="0.438">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction sltiu" time="0.437">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction addi-funct7" time="0.43">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SingleCycleITypeTesterLab2" name="Single Cycle CPU should run I-Type instruction addi2" time="0.451">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

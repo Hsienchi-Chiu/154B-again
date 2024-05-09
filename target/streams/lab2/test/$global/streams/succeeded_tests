@@ -1,0 +1,18 @@
+#Successful Tests
+#Wed May 01 16:42:10 GMT 2024
+dinocpu.SingleCycleApplicationsTesterLab2=1714581702363
+dinocpu.SingleCycleUTypeTesterLab2=1714581703461
+dinocpu.NextPCTesterLab2=1714581703371
+dinocpu.SingleCycleITypeTesterLab2=1714581713032
+dinocpu.SingleCycleRTypeTesterLab2=1714581719736
+dinocpu.SingleCycleJALRTesterLab2=1714581704706
+dinocpu.NextPCJalTesterLab2=1714581698630
+dinocpu.SingleCycleLoadTesterLab2=1714581706260
+dinocpu.SingleCycleRTypeMExtensionTesterLab2=1714581730371
+dinocpu.NextPCBranchTesterLab2=1714581698422
+dinocpu.ControlTesterLab2=1714581703592
+dinocpu.SingleCycleLoadStoreTesterLab2=1714581711007
+dinocpu.NextPCJalrTesterLab2=1714581698427
+dinocpu.SingleCycleBranchTesterLab2=1714581710290
+dinocpu.SingleCycleStoreTesterLab2=1714581707059
+dinocpu.SingleCycleJALTesterLab2=1714581703174
