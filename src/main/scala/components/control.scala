@@ -1,9 +1,12 @@
 // Control logic for the processor
 
+
 package dinocpu.components
+
 
 import chisel3._
 import chisel3.util.{BitPat, ListLookup}
+
 
 /**
  * Main control logic for our simple processor
@@ -44,9 +47,11 @@ import chisel3.util.{BitPat, ListLookup}
  * This follows figure 4.22.
  */
 
+
 class Control extends Module {
   val io = IO(new Bundle {
     val opcode = Input(UInt(7.W))
+
 
     val aluop             = Output(UInt(3.W))
     val controltransferop = Output(UInt(2.W))
@@ -58,6 +63,7 @@ class Control extends Module {
     val validinst         = Output(UInt(1.W))
   })
 
+
   val signals =
     ListLookup(io.opcode,
       /*default*/           List(     0.U,               0.U,   0.U,     0.U,     0.U,             0.U,           0.U,       0.U),
@@ -67,9 +73,15 @@ class Control extends Module {
       // R-format 32-bit operands
       BitPat("b0111011") -> List(     3.U,               0.U,   0.U,     0.U,     0.U,             1.U,           0.U,       1.U),
       //Your code goes here
+      //I-type 64-bit operands
+      BitPat("b0010011") -> List(     2.U,               0.U,   0.U,     0.U,     2.U,             1.U,           0.U,       1.U),
+      //I-type 32-bit operands
+      BitPat("b0011011") -> List(     4.U,               0.U,   0.U,     0.U,     2.U,             1.U,           0.U,       1.U),
+
 
       ) // Array
     ) // ListLookup
+
 
   io.aluop             := signals(0)
   io.controltransferop := signals(1)

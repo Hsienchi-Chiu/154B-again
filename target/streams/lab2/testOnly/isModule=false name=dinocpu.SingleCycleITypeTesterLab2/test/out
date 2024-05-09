@@ -4,13 +4,16 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should run I-Type instruction addiw1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-Type instruction addiw2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run I-Type instruction addiw2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:81)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-Type instruction addiw3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run I-Type instruction addiw3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:81)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should run I-Type instruction slli[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-Type instruction slli2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run I-Type instruction slli2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:81)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should run I-Type instruction slliw1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
@@ -28,7 +31,8 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should run I-Type instruction srli[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run I-Type instruction srli2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run I-Type instruction srli2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:81)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should run I-Type instruction srliw1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
