@@ -1,8 +1,9 @@
 #Successful Tests
-#Thu May 09 22:11:00 GMT 2024
+#Fri May 10 17:08:52 GMT 2024
 dinocpu.SingleCycleApplicationsTesterLab2=1714581702363
 dinocpu.SingleCycleUTypeTesterLab2=1714581703461
 dinocpu.NextPCTesterLab2=1714581703371
+dinocpu.SingleCycleITypeTesterLab2=1715360932322
 dinocpu.SingleCycleRTypeTesterLab2=1714581719736
 dinocpu.SingleCycleJALRTesterLab2=1714581704706
 dinocpu.NextPCJalTesterLab2=1714581698630

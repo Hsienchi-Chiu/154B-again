@@ -4,7 +4,7 @@
 		module="root-154b-again-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20240509220052"
+		publication="20240510165127"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

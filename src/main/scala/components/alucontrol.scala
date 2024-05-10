@@ -81,16 +81,11 @@ class ALUControl extends Module {
     io.operation := MuxCase(
        "b11111".U, // default: Invalid
        Array(
-        ((io.funct3 === "b000".U)) -> "b00001".U, // ADDI
-        ((io.funct3 === "b111".U)) -> "b01101".U, // ANDI
-        ((io.funct3 === "b110".U)) -> "b01110".U, // ori
-        ((io.funct3 === "b100".U)) -> "b01111".U, // xorI
-        ((io.funct3 === "b010".U)) -> "b10110".U, // slti
-        ((io.funct3 === "b011".U)) -> "b10111".U, // sltiu
+        ((io.funct3 === "b000".U)) -> "b00000".U, //addiw
+        ((io.funct3 === "b101".U) & (io.funct7 === "b0100000".U)) -> "b10001".U, //SRAIW
+        ((io.funct3 === "b101".U) & (io.funct7 === "b0000000".U)) -> "b10101".U, //SRLIW
+        ((io.funct3 === "b001".U) & (io.funct7 === "b0000000".U)) -> "b10011".U //SLLIW
 
-        ((io.funct3 === "b101".U) & (io.funct7 === "b0100000".U)) -> "b10001".U, // SRAIW
-        ((io.funct3 === "b101".U) & (io.funct7 === "b0000000".U)) -> "b10101".U, // SRLIW
-        ((io.funct3 === "b001".U) & (io.funct7 === "b0000000".U)) -> "b10011".U // SRLIW
         )
       )
              
@@ -107,9 +102,9 @@ class ALUControl extends Module {
         ((io.funct3 === "b010".U)) -> "b10110".U, // slti
         ((io.funct3 === "b011".U)) -> "b10111".U, // sltiu
 
-        ((io.funct3 === "b101".U) & (io.funct7==="b0100000".U)) -> "b10001".U, // SRAI
-        ((io.funct3 === "b101".U) & (io.funct7==="b0000000".U)) -> "b10101".U, // SRLI
-        ((io.funct3 === "b001".U) & (io.funct7==="b0000000".U)) -> "b10011".U, // SRLI
+        ((io.funct3 === "b101".U) & (io.funct7(6,1) === "b010000".U)) -> "b10000".U, //srai
+        ((io.funct3 === "b101".U) & (io.funct7(6,1) === "b000000".U)) -> "b10100".U, //srli
+        ((io.funct3 === "b001".U) & (io.funct7(6,1) === "b000000".U)) -> "b10010".U //slli
 
        )
     )

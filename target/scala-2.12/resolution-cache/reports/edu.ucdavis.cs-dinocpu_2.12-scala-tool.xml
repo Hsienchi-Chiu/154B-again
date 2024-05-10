@@ -7,15 +7,15 @@
 		revision="0.5"
 		conf="scala-tool"
 		confs="compile, runtime, test, provided, optional, testAll, grader, lab1, lab2, lab3, lab4, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
-		date="20240509220239"/>
+		date="20240510165324"/>
 	<dependencies>
 		<module organisation="org.scala-lang" name="scala-compiler">
 			<revision name="2.12.10" status="release" pubdate="20190910212217" resolver="public" artresolver="public" homepage="https://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, optional, optional(default), master" position="0">
 				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2480" time="26" location="/root/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.10.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10.pom"/>
+				<metadata-artifact status="successful" details="" size="2480" time="22" location="/root/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.10.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10.pom"/>
 				<caller organisation="edu.ucdavis.cs" name="dinocpu_2.12" conf="scala-tool" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="0.5"/>
 				<artifacts>
-					<artifact name="scala-compiler" type="jar" ext="jar" status="successful" details="" size="10672015" time="153" location="/root/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.10.jar">
+					<artifact name="scala-compiler" type="jar" ext="jar" status="successful" details="" size="10672015" time="118" location="/root/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.10.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10.jar"/>
 					</artifact>
 				</artifacts>
@@ -24,10 +24,10 @@
 		<module organisation="org.fusesource.jansi" name="jansi">
 			<revision name="1.12" status="release" pubdate="20160427164111" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(compile), compile(*), master" position="5">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3712" time="21" location="/root/.ivy2/cache/org.fusesource.jansi/jansi/ivy-1.12.xml" searched="true" original-local-location="/root/.ivy2/cache/org.fusesource.jansi/jansi/ivy-1.12.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.pom"/>
+				<metadata-artifact status="successful" details="" size="3712" time="24" location="/root/.ivy2/cache/org.fusesource.jansi/jansi/ivy-1.12.xml" searched="true" original-local-location="/root/.ivy2/cache/org.fusesource.jansi/jansi/ivy-1.12.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="optional" rev="1.12" rev-constraint-default="1.12" rev-constraint-dynamic="1.12" callerrev="2.12.10"/>
 				<artifacts>
-					<artifact name="jansi" type="jar" ext="jar" status="successful" details="" size="151757" time="121" location="/root/.ivy2/cache/org.fusesource.jansi/jansi/jars/jansi-1.12.jar">
+					<artifact name="jansi" type="jar" ext="jar" status="successful" details="" size="151757" time="96" location="/root/.ivy2/cache/org.fusesource.jansi/jansi/jars/jansi-1.12.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"/>
 					</artifact>
 				</artifacts>
@@ -60,10 +60,10 @@
 		<module organisation="org.scala-lang" name="scala-reflect">
 			<revision name="2.12.10" status="release" pubdate="20190910211922" resolver="public" artresolver="public" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.12.10/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
 				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="1813" time="27" location="/root/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.10.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.pom"/>
+				<metadata-artifact status="successful" details="" size="1813" time="30" location="/root/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.10.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, optional, master" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="2.12.10"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="jar" ext="jar" status="successful" details="" size="3678534" time="121" location="/root/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.10.jar">
+					<artifact name="scala-reflect" type="jar" ext="jar" status="successful" details="" size="3678534" time="118" location="/root/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.10.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.jar"/>
 					</artifact>
 				</artifacts>
@@ -78,7 +78,7 @@
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, optional, master" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="2.12.10"/>
 				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="1.0.6"/>
 				<artifacts>
-					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="5276900" time="154" location="/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.10.jar">
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="5276900" time="136" location="/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.10.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.jar"/>
 					</artifact>
 				</artifacts>
