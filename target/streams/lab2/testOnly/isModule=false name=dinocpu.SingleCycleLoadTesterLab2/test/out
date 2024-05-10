@@ -1,23 +1,34 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mSingleCycleLoadTesterLab2:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run load instruction test lw1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run load instruction test lw1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:102)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run load instruction test lb[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run load instruction test lb *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:102)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run load instruction test lh[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run load instruction test lh *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:102)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run load instruction test lbu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run load instruction test lbu *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:102)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run load instruction test lhu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run load instruction test lhu *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:102)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run load instruction test lb1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run load instruction test lb1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:102)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run load instruction test lh1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run load instruction test lh1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:102)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run load instruction test lwu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run load instruction test lwu *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:102)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run load instruction test lwu1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run load instruction test lwu1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:102)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run load instruction test ld1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run load instruction test ld1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:102)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSingle Cycle CPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should run load instruction test ld2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run load instruction test ld2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab2Test.scala:102)[0m[0m

@@ -30,3 +30,9 @@ Lab2 / testOnly dinocpu.SingleCycleApplicationsTesterLab2
 Lab2 / testOnly dinocpu.SingleCycleRTypeTesterLab2
 Lab2 / test
 Lab2 / testOnly dinocpu.SingleCycleITypeTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleLoadTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleUTypeTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleITypeTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleLoadTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleRTypeTesterLab2
+Lab2 / testOnly dinocpu.SingleCycleLoadTesterLab2
