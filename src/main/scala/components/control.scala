@@ -87,7 +87,6 @@ class Control extends Module {
       BitPat("b0100011") -> List(     5.U,               0.U,   2.U,     0.U,     2.U,             0.U,           0.U,       1.U),
       //branch 
       BitPat("b1100011") -> List(     0.U,               3.U,   0.U,     0.U,     0.U,             0.U,           0.U,       1.U),
-
       ) // Array
     ) // ListLookup
 
