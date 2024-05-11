@@ -46,8 +46,9 @@ class SingleCycleCPU(implicit val conf: CPUConfig) extends BaseCPU {
   registers.io.readreg2 := instruction(24, 20)
   registers.io.writereg := instruction(11, 7)
   registers.io.wen := (registers.io.writereg =/= 0.U) & (control.io.writeback_valid === 1.U)
-  registers.io.writedata := MuxCase(alu.io.result , Array((control.io.writeback_src === 2.U) -> io.dmem.readdata,
-                                                          (control.io.writeback_src === 1.U) -> immGen.io.sextImm))
+  registers.io.writedata := MuxCase(0.U , Array((control.io.writeback_src === 0.U) -> alu.io.result,
+                                               (control.io.writeback_src === 2.U) -> io.dmem.readdata,
+                                              (control.io.writeback_src === 1.U) -> immGen.io.sextImm))
   //Immediate Generator
   immGen.io.instruction := instruction
  
@@ -58,22 +59,23 @@ class SingleCycleCPU(implicit val conf: CPUConfig) extends BaseCPU {
  
  // Alu 
   alu.io.operation := aluControl.io.operation
-  alu.io.operand1 := registers.io.readdata1
-  alu.io.operand2 := MuxCase( registers.io.readdata2, Array((control.io.op2_src === 2.U) -> immGen.io.sextImm,
-                                                            (control.io.op2_src === 1.U) -> 4.U))
+  alu.io.operand1 := MuxCase( 0.U,                    
+                              Array((control.io.op1_src === 0.U) -> registers.io.readdata1, 
+                                    (control.io.op1_src === 1.U) -> pc))	  
+  alu.io.operand2 := MuxCase( registers.io.readdata2,   
+                              Array((control.io.op2_src === 2.U) -> immGen.io.sextImm,
+                                    (control.io.op2_src === 1.U) -> 4.U))
 
-
-
-
-
+  // Data memory
   io.dmem.address := alu.io.result
   io.dmem.writedata := registers.io.readdata2
   io.dmem.valid := control.io.memop =/= 0.U
   io.dmem.memread := control.io.memop === 1.U
   io.dmem.memwrite := control.io.memop === 2.U
   io.dmem.maskmode := instruction(13, 12)
-  io.dmem.sext := instruction(14)
+  io.dmem.sext := ~instruction(14)
   
+    
    // Control transfer unit
    controlTransfer.io.pc := pc
    controlTransfer.io.controltransferop := control.io.controltransferop
@@ -106,4 +108,3 @@ object SingleCycleCPUInfo {
     )
   }
 }
-
